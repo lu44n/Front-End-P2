@@ -1,0 +1,97 @@
+/* seletor universal */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 14px;
+}
+
+header {
+    height: 80px;
+    border-bottom: 1px solid purple;
+}
+
+header img {
+    margin-top: 10px;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 16px;
+    padding-right: 16px;    
+}
+
+article {
+    padding: 12px;
+    border: 1px solid purple;
+}
+
+@media(min-width: 960px){
+    article {
+        width: 30%;
+        float: left;
+        margin-right: 8px;     
+    }
+}
+
+#vagas {
+    padding: 80px 0;
+}
+
+.container::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+article > h2 {
+    background-color: purple;
+    color: white;
+    text-align: center;
+    line-height: 3;
+    margin: -12px;
+    margin-bottom: 0;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+article > div {
+    text-align: center;
+    font-size: 18px;
+    margin: 20px 0; /* Primeiro número serve para em cima e embaixo, o outro esquerda e direita */
+}
+
+article > ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 20px 0;
+}
+
+article > ul > li {
+    text-align: center;
+}
+
+article > footer {
+    text-align: center;
+
+}
+
+.botao {
+    display: inline-block;
+    background-color: purple;
+    color: white; 
+    padding: 12px 16px;
+    text-decoration: none;   
+}
+
+
+.botao:hover, .botao:focus {
+    background-color: rgb(54, 0, 54);
+    outline: none;
+}
