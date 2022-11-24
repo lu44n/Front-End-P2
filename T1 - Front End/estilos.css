@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    }
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+header > img {
+    margin-top: 10px;
+}
+    
+
+.container {
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    border: 1px solid;
+}
+
+.navbar {
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+nav {
+    flex: 1;
+    text-align: right;
+    margin-left: 40px;
+}
+ nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.intro {
+    text-align: center;
+}
+
+article .anuncios > .anuncio1, .anuncio2, .anuncio3, .anuncio4{
+    display: inline-block;
+}
+
+article .anuncios > .anuncio1 {
+    padding: 12px;
+    border: 1px solid #000;
+    width: 380px;
+    border-radius: 40px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+article .anuncios > h2, div {
+    text-align: center;
+}
+article .anuncios > .anuncio1 > .carrinho, .compra {
+    padding: 1px;
+    border: 1px solid #000;
+    width:150px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+article .anuncios > .anuncio1 > .carrinho > p > a{
+    color: #000;
+    text-decoration: none;
+}
+article .anuncios > .anuncio1 > .compra > p > a{
+    color: #000;
+    text-decoration: none;
+}
+
+article .anuncios .anuncio2 {
+    padding: 12px;
+    border: 1px solid #000;
+    width: 380px;
+    border-radius: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+article .anuncios .anuncio2 > .carrinho, .compra {
+    padding: 1px;
+    border: 1px solid #000;
+    width:150px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+article .anuncios .anuncio2 > .carrinho > p > a{
+    color: #000;
+    text-decoration: none;
+}
+article .anuncios .anuncio2 > .compra > p > a{
+    color: #000;
+    text-decoration: none;
+}
+
+article > .anuncios .anuncio3 {
+    padding: 12px;
+    border: 1px solid #000;
+    width: 380px;
+    border-radius: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
+} 
+
+article .anuncios .anuncio3 > .carrinho, .compra {
+    padding: 1px;
+    border: 1px solid #000;
+    width:150px;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+article .anuncios .anuncio3 > .carrinho > p > a{
+    color: #000;
+    text-decoration: none;
+}
+article .anuncios .anuncio3 > .compra > p > a{
+    color: #000;
+    text-decoration: none;
+}
+article > .anuncios .anuncio4 {
+    padding: 12px;
+    border: 1px solid #000;
+    width: 380px;
+    border-radius: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
+} 
+
+article .anuncios .anuncio4 > .carrinho, .compra {
+    padding: 1px;
+    border: 1px solid #000;
+    width:150px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+article .anuncios .anuncio4 > .carrinho > p > a{
+    color: #000;
+    text-decoration: none;
+}
+article .anuncios .anuncio4 > .compra > p > a{
+    color: #000;
+    text-decoration: none;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    border: 1px solid;
+}
+footer ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 30px;
+}
+footer ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
